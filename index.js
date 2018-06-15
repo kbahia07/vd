@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 const MongoClient = require('mongodb').MongoClient;
 
-// require environment variables
-const config = require('./config');
-
 var db;
 
 app.use(express.json());
