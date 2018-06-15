@@ -17,7 +17,7 @@ MongoClient.connect(process.env.DATABASE_URL, function(err, client) {
 	console.log('Connected to DB');
 
 	// start Web Server
-	app.listen(config.port, function() {
+	app.listen(process.env.PORT, function() {
 		console.log("Listening on " + config.port);
 	});
 });
