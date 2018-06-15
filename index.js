@@ -10,7 +10,7 @@ var db;
 app.use(express.json());
 
 // connect to database
-MongoClient.connect(config.database, function(err, client) {
+MongoClient.connect(process.env.DATABASE_URL, function(err, client) {
 	if (err) throw err;
 
 	db = client.db('vaultdragondb');
