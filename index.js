@@ -19,8 +19,6 @@ MongoClient.connect(process.env.DATABASE_URL, function(err, client) {
 	});
 });
 
-app.get('/', req);
-
 /**
 *
 * Endpoint: /object/{key}?timestamp={timestamp} [timestamp optional]
