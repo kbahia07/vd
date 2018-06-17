@@ -15,9 +15,11 @@ MongoClient.connect(process.env.DATABASE_URL, function(err, client) {
 
 	// start Web Server
 	app.listen(process.env.PORT, function() {
-		console.log("Listening on " + config.port);
+		console.log("Listening on " + process.env.PORT);
 	});
 });
+
+app.get('/', req);
 
 /**
 *
