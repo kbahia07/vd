@@ -1,4 +1,4 @@
-# VD Coding Test
+# VD
 
 To start locally, clone this project and run `node index.js`
 
@@ -6,15 +6,16 @@ To start locally, clone this project and run `node index.js`
 
 Endpoint: https://hidden-plains-15723.herokuapp.com/object/{key}?timestamp=1440568980 [timestamp is optional]
 
-Method: GET
+Method: GET  
+  
 
-
-
+  
 Endpoint: https://hidden-plains-15723.herokuapp.com/object
 
 Method: POST
 
-Request Body: JSON: {mykey : value1}
+Request Body: JSON: {mykey : value1}  
+  
 
 **Hosts**
 
