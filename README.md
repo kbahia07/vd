@@ -1,6 +1,11 @@
 # VD
 
-To start locally, clone this project and run `node index.js`
+To start locally, clone this project and run 
+
+```
+npm install
+node index.js
+```
 
 **Working Demo**
 
